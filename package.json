@@ -1,0 +1,20 @@
+{
+  "name": "taiga",
+  "version": "0.1.0",
+  "description": "A simple and streamlined static site generator.",
+  "homepage": "https://github.com/polymoon/taiga",
+  "bugs": "https://github.com/polymoon/taiga/issues",
+  "repository": "polymoon/taiga",
+  "license": "MIT",
+  "author": "Nick Pfisterer <nick@polymoon.net>",
+  "engines": {
+    "node": "8.11.x"
+  },
+  "main": "",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "esm": {
+    "mode": "auto"
+  }
+}
