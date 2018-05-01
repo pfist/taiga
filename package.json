@@ -10,9 +10,14 @@
   "engines": {
     "node": "8.11.x"
   },
-  "main": "",
+  "bin": {
+    "taiga": "bin/taiga"
+  },
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+    "commander": "^2.15.1",
+    "esm": "^3.0.28"
+  },
   "devDependencies": {},
   "esm": {
     "mode": "auto"
