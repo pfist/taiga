@@ -13,8 +13,8 @@
   "bin": "bin/taiga",
   "scripts": {},
   "dependencies": {
-    "commander": "^2.15.1",
-    "esm": "^3.0.28"
+    "esm": "^3.0.28",
+    "yargs": "^11.0.0"
   },
   "devDependencies": {},
   "esm": {

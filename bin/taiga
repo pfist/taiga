@@ -2,13 +2,34 @@
 
 'use strict'
 
-import cli from 'commander'
+import cli from 'yargs'
 import info from '../package.json'
 
-cli.command('create <dir> [theme]', 'Create a new website')
-cli.command('develop', 'Start up a development server')
-cli.command('build', 'Build your website')
+cli.command({
+  command: 'create <name> [theme]',
+  desc: 'Create a new website',
+  handler: args => {
+    console.log('Create')
+  }
+})
 
-cli.version(info.version, '-v --version')
+cli.command({
+  command: 'develop',
+  desc: 'Start up a development server',
+  handler: args => {
+    console.log('Develop')
+  }
+})
 
-cli.parse(process.argv)
+cli.command({
+  command: 'build',
+  desc: 'Build your website',
+  handler: args => {
+    console.log('Build')
+  }
+})
+
+cli.usage('Usage: $0 <command> [options]')
+cli.help('help', 'Learn how to use Taiga')
+cli.version('v', 'Show the currently installed version of Taiga', info.version)
+cli.parse()

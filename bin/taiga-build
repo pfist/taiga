@@ -1,7 +1,0 @@
-#!/usr/bin/env node -r esm
-
-'use strict'
-
-import cli from 'commander'
-
-cli.parse(process.argv)
