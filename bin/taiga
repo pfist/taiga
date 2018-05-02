@@ -1,0 +1,14 @@
+#!/usr/bin/env node -r esm
+
+'use strict'
+
+import cli from 'commander'
+import info from '../package.json'
+
+cli.command('create <dir> [theme]', 'Create a new website')
+cli.command('develop', 'Start up a development server')
+cli.command('build', 'Build your website')
+
+cli.version(info.version, '-v --version')
+
+cli.parse(process.argv)
