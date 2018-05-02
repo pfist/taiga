@@ -10,9 +10,7 @@
   "engines": {
     "node": "8.11.x"
   },
-  "bin": {
-    "taiga": "bin/taiga"
-  },
+  "bin": "bin/taiga",
   "scripts": {},
   "dependencies": {
     "commander": "^2.15.1",
