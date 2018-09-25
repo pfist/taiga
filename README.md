@@ -2,6 +2,8 @@
 
 A simple and streamlined static site generator.
 
+> ⚠ Taiga is an early work in progress and is not available yet. The details below are preliminary.
+
 ## Features
 
 - Write your content in Markdown and easily organize it with folders
